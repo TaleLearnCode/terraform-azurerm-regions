@@ -12,7 +12,8 @@ There are no prerequisites for this project.
 
 ```hcl
 module "azure_regions" {
-	source = "git::git@ssh.dev.azure.com:v3/JasperEnginesTransmissions/JETDEV/TerraformModule_AzureRegions"
+  source  = "TaleLearnCode/regions/azurerm"
+  version = "0.0.1-pre"
 	azure_region = "northcentralus"
 }
 ```
